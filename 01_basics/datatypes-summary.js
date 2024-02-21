@@ -22,8 +22,8 @@ console.table([id, anotherId]);
 console.log(id === anotherId); //false
 
 
-// const bigNumber = 333333333333333333333333333333n;
-// console.log(bigNumber); //333333333333333333333333333333n
+const bigNumber = 333333333333333333333333333333n;
+console.log(bigNumber); //333333333333333333333333333333n
 
 
 // Reference (Non Primitive)
