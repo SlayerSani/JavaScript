@@ -45,3 +45,27 @@ console.log(typeof bigNumber);  //bigint
 console.log(typeof outsideTemp); //object
 console.log(typeof scoreValue);  // number
 console.log(typeof myFunction);  //function
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+/*************************************************************************************/
+
+// stack(Primitive), Heap(Non-Primitive)
+
+let myYouTubename = "Sourinsanidotcom";
+let anothername = myYouTubename;
+anothername = "chaiaurcode"
+console.log(myYouTubename);  // Sourinsanidotcom
+console.log(anothername); // chaiaurcode
+
+let userOne = {
+    email: 'user@google.com',
+    upi: 'user@ybl'
+}
+
+let userTwo = userOne
+
+userTwo.email = 'sourin@google.com'
+console.log(userOne.email); // sourin@google.com
+console.log(userTwo.email); // sourin@google.com
