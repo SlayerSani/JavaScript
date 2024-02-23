@@ -69,3 +69,16 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
 // The Object.entries() static method returns an array of a given object's own enumerable string-keyed property key-value pairs.
 
 
+const course = {
+    coursename: 'JS in Hindi',
+    price: 999,
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: CI} = course
+
+// console.log(courseInstructor); // const {courseInstructor} = course ----> Hitesh
+console.log(CI); // Hitesh
+

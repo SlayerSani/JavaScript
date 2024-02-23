@@ -1,0 +1,46 @@
+https://api.github.com/users/hiteshchoudhary
+
+//1st API
+{
+  "login": "hiteshchoudhary",
+  "id": 11613311,
+  "node_id": "MDQ6VXNlcjExNjEzMzEx",
+  "avatar_url": "https://avatars.githubusercontent.com/u/11613311?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/hiteshchoudhary",
+  "html_url": "https://github.com/hiteshchoudhary",
+  "followers_url": "https://api.github.com/users/hiteshchoudhary/followers",
+  "following_url": "https://api.github.com/users/hiteshchoudhary/following{/other_user}",
+  "gists_url": "https://api.github.com/users/hiteshchoudhary/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/hiteshchoudhary/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/hiteshchoudhary/subscriptions",
+  "organizations_url": "https://api.github.com/users/hiteshchoudhary/orgs",
+  "repos_url": "https://api.github.com/users/hiteshchoudhary/repos",
+  "events_url": "https://api.github.com/users/hiteshchoudhary/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/hiteshchoudhary/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Hitesh Choudhary",
+  "company": null,
+  "blog": "https://www.youtube.com/c/HiteshChoudharydotcom",
+  "location": "India",
+  "email": null,
+  "hireable": null,
+  "bio": "I make coding videos on youtube and for courses. My youtube channel explains my work more. Check that out",
+  "twitter_username": "hiteshdotcom",
+  "public_repos": 81,
+  "public_gists": 4,
+  "followers": 16021,
+  "following": 0,
+  "created_at": "2015-03-23T13:03:25Z",
+  "updated_at": "2024-02-12T12:11:50Z"
+}
+
+
+// 2nd API
+
+{"results":[{"gender":"female","name":{"title":"Ms","first":"Sofie","last":"Olsen"},"location":{"street":{"number":7879,"name":"Ingridsvej"},"city":"Bælum","state":"Danmark","country":"Denmark","postcode":49677,"coordinates":{"latitude":"-40.2025","longitude":"78.9781"},"timezone":{"offset":"+4:30","description":"Kabul"}},"email":"sofie.olsen@example.com","login":{"uuid":"eafac620-7faa-4ac8-9b6f-b752c54e0448","username":"yellowpanda496","password":"gertrude","salt":"8QPQVHfQ","md5":"374161e0e0afda83c8ab560cfa8437c3","sha1":"d905655f74566abe08e288eeb43f0960967c8a2b","sha256":"cbe92c2dce8481c691dfa5c4cc6fed67885612b207108114fb8283c875ed4d0d"},"dob":{"date":"1963-07-25T03:01:25.089Z","age":60},"registered":{"date":"2005-11-15T23:06:46.736Z","age":18},"phone":"33903252","cell":"20238152","id":{"name":"CPR","value":"240763-4211"},"picture":{"large":"https://randomuser.me/api/portraits/women/75.jpg","medium":"https://randomuser.me/api/portraits/med/women/75.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/75.jpg"},"nat":"DK"}],"info":{"seed":"15361a348bfd71d1","results":1,"page":1,"version":"1.4"}}
+
+
+Site1 : https://jsonformatter.org/
+Site2 : https://randomuser.me/
