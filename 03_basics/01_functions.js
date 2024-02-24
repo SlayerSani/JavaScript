@@ -107,3 +107,48 @@ function loginUserMessage(username = 'Sani'){
 
 // console.log(loginUserMessage('Sourin')); //Sourin just logged in
 console.log(loginUserMessage()); //Sani just logged in 
+
+
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500)); //[ 200, 400, 500 ]
+
+// The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+// The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1;                                        
+}
+console.log(calculateCartPrice(200, 400, 500, 2000)); // [ 500, 2000 ]
+
+
+const user = {
+    username: 'Sourin Das',
+    price: 149
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);  // Username is Sourin Das and price is 149
+}
+handleObject(user)
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);  // Username is Sourin Sani and price is 549
+}
+handleObject({
+    username: 'Sourin Sani',
+    price: 549
+})
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+console.log(returnSecondValue(myNewArray)); //100
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+console.log(returnSecondValue([200,400,100,600])); //100
