@@ -1,0 +1,40 @@
+Global Execution context 
+Functional Executional context
+Eval execution context
+
+Memory creation phase (Only memory is getting allocated)
+Execution phase()
+
+let val1 = 10
+let val2 = 5
+function addNum(num1,num2){
+    let total = num1 + num2;
+    return total;
+}
+
+let result1 = addNum(val1, val2)
+let result2 = addNum(10,2)
+
+Step1 : Global exectution --> allocate in (this)
+Step2 : Memory phase ---> variable creation and value store in the variable that is undefined
+val1 --> undefined
+val2 --> undefined
+addNum --> goes function defination
+then result1 --> undefined
+then in result2 -->undefined
+Step3 : Execution phase
+val1 --> takes the value 10
+val2 --> takes the value 5
+addNum --> creates another executional context --> new variable environment + Executiona thread
+Step4 : Step2 and Step3 repeats for each function
+Step5 : Then retuns the value to Gloabl exectuional Step1
+Step6 : Once the executional is done it deletes itself
+Step7 : Repeats all the steps 
+
+============================================================================================================
+
+Call Stack 
+
+1. Global execution
+2. one(), two(), three()
+3. LIFO(Last in first out)
