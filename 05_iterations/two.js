@@ -46,4 +46,3 @@ do{
     score++;
 }while (score<=10);
 //Score is 11
-??
