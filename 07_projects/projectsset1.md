@@ -7,7 +7,7 @@
 # Solution Code
 
 ## Project1
-```1-colorChanger
+```Javascript
 //JavaScript Code
 console.log('Sourin Das')
 
@@ -38,9 +38,9 @@ buttons.forEach(function(button){
     
   })
 })
+```
 
-
-// HTML5
+```HTML
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -85,9 +85,10 @@ buttons.forEach(function(button){
     <script src="chaiaurcode.js"></script>
   </body>
 </html>
+```
 
 
-//CSS3
+``` CSS
 html {
   margin: 0;
 }
