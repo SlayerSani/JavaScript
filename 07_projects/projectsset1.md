@@ -41,7 +41,7 @@ buttons.forEach(function(button){
 ```
 
 ```HTML
-//HTML5 Code
+<!-- HTML5 Code -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -90,7 +90,7 @@ buttons.forEach(function(button){
 
 
 ``` CSS
-//CSS3 Code
+/* CSS3 Code */
 html {
   margin: 0;
 }
