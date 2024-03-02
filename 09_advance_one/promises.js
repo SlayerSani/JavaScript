@@ -208,7 +208,7 @@ consumePromiseFive()
 //getAllUsers()
 
 const fetch = require("node-fetch");
-const promiseSix = fetch('https://jsonplaceholder.typicode.com/users')
+fetch('https://jsonplaceholder.typicode.com/users')
 .then((response) => {
     return response.json()
 })
