@@ -114,7 +114,7 @@
 //     }
 // }
 // getAllUsers();
-
+// import fetch from "node-fetch";
 
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
@@ -207,7 +207,8 @@ consumePromiseFive()
 
 //getAllUsers()
 
-fetch('https://jsonplaceholder.typicode.com/users')
+const fetch = require("node-fetch");
+const promiseSix = fetch('https://jsonplaceholder.typicode.com/users')
 .then((response) => {
     return response.json()
 })
@@ -216,5 +217,20 @@ fetch('https://jsonplaceholder.typicode.com/users')
 })
 .catch((error) => console.log(error))
 
+
+
 // promise.all
 // yes this is also available, kuch reading aap b kro.
+
+// Install it in your Node application like this
+
+// npm install node-fetch
+// then put the line below at the top of the files where you are using the fetch API:
+
+// import fetch from "node-fetch";
+// If your application cannot be updated to use ESM (aka import syntax), and you need to use CommonJS (aka require), then stick with v2 of node-fetch. As per their README, v2 will continue to receive critical bug fixes.
+
+// npm install node-fetch@2
+// and then this will work,
+
+// const fetch = require("node-fetch");
